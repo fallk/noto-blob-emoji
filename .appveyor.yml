@@ -1,6 +1,6 @@
 environment:
   access_token:
-   secure: wShbQfYcfaf2ZgU8dFgLTVJglCyGiK9/BHWcEbVZ4sU8SqxokPc4pFfl1ZY4qtlO
+   secure: gyQPff3ry2EZ4n20ebm1Qnvq8DAWNxG7NtSi1N45juic9ci7Etn8AwHgafe1h6xq
 
 build_script:
  - git config --global credential.helper store
