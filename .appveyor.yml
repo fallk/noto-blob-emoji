@@ -15,11 +15,11 @@ build_script:
  - cd C:\
  - git clone https://github.com/googlei18n/noto-emoji
  - cd noto-emoji
- - "%appvhome%\internalcopy C:\noto-emoji\png %appvhome%\png /E /IS /NS /NC /NDL /NFL /NP"
- - "%appvhome%\internalcopy C:\noto-emoji\svg %appvhome%\svg /E /IS /NS /NC /NDL /NFL /NP"
+ - "%appvhome%\\internalcopy C:\\noto-emoji\\png %appvhome%\\png /E /IS /NS /NC /NDL /NFL /NP"
+ - "%appvhome%\\internalcopy C:\\noto-emoji\\svg %appvhome%\\svg /E /IS /NS /NC /NDL /NFL /NP"
  - git checkout v2017-05-18-cook-color-fix
- - "%appvhome%\internalcopy C:\noto-emoji\png %appvhome%\png /E /IS /NS /NC /NDL /NFL /NP"
- - "%appvhome%\internalcopy C:\noto-emoji\svg %appvhome%\svg /E /IS /NS /NC /NDL /NFL /NP"
+ - "%appvhome%\\internalcopy C:\\noto-emoji\\png %appvhome%\\png /E /IS /NS /NC /NDL /NFL /NP"
+ - "%appvhome%\\internalcopy C:\\noto-emoji\\svg %appvhome%\\svg /E /IS /NS /NC /NDL /NFL /NP"
  - cd %appvhome%
  - git commit -m "Automated Appveyor build at %mydate%, %mytime% [skip ci]"
  - git push origin master
