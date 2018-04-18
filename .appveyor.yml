@@ -21,6 +21,7 @@ build_script:
  - "%appvhome%\\internalcopy C:\\noto-emoji\\png %appvhome%\\png /E /IS /NS /NC /NDL /NFL /NP"
  - "%appvhome%\\internalcopy C:\\noto-emoji\\svg %appvhome%\\svg /E /IS /NS /NC /NDL /NFL /NP"
  - cd %appvhome%
+ - git add .
  - git commit -m "Automated Appveyor build at %mydate%, %mytime% [skip ci]"
  - git push origin master
  #
